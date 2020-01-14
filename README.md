@@ -2,7 +2,6 @@
 [![characteristic](https://img.shields.io/badge/特點-%20輕量級%20%7C%20簡單易用%20%20%7C%20穩定%20-brightgreen.svg)](https://github.com/sam38124)
 # JzOsSqlHelper
 這是一套極致輕量的IOS_Sqlite管理器
-[android版本](https://github.com/sam38124/JzFrameWork)
 ## 目錄
 * [如何導入到專案](#Import)
 * [如何使用](#Use)
