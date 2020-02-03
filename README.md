@@ -50,11 +50,10 @@ class ViewController: UIViewController,Sql_Result{
 ```
 #### 4.預載網路資料庫
 ```swift
- DispatchQueue.global().async {
-            if(a.initByUrl("https://bento2.orange-electronic.com/Orange%20Cloud/Database/MMY/EU/MMY_EU_list_V0.6_191128.db")){
-                      a.query("select count(1) from `Summary table`",self)
-                  }
-        }
+ SqlHelper("mmy.db").initByUrl("https://dburl",{
+            result in
+            print("預載資料庫\(result)")
+        })
 ```
 <a name="About"></a>
 ### 關於我
