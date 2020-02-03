@@ -25,8 +25,6 @@ let a=SqlHelper("隨便取名.db")
 ```
 #### 2.快速使用
 ```swift
-        //建立資料庫
-        let a=SqlHelper("test.db")
         //自動創建空資料庫
         if(a.autoCreat()){
             a.exSql("CREATE TABLE  IF NOT EXISTS `logtable` ( id INTEGER PRIMARY KEY AUTOINCREMENT, data VARCHAR NOT NULL, type VARCHAR NOT NULL);")
