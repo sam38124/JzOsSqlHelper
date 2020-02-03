@@ -34,8 +34,6 @@ let a=SqlHelper("隨便取名.db")
 ```
 #### 3.預載本地資料庫
 ```swift
-        //建立資料庫
-        let a=SqlHelper("test.db")
         //預載本地資料庫(必須將資料庫放於和Assets同級的位置)
         if(a.initByBundleMain("MMY_EU_list_V0.4_190926","db")){
             a.query("select * from `Summary table`",self)
