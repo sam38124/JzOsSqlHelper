@@ -19,13 +19,9 @@
 <img src="https://github.com/sam38124/JzOsFrameWork/blob/master/i3.png" width = "800"  alt="i1" /><a name="Use"></a>
 <a name="Use"></a>
 ## 如何使用
-#### 1.在要監聽資料回調的地方繼承Sql_Result
+#### 1.宣告你的SqlHelper
 ```swift
-class ViewController: UIViewController,Sql_Result{
-    func resultBack(_ binary: SqlBinary) {
-        print(binary.getString(0))
-    }
-}
+let a=SqlHelper("隨便取名.db")
 ```
 #### 2.快速使用
 ```swift
