@@ -3,7 +3,7 @@
 # JzOsSqlHelper
 This is an extremely lightweight sqlite manager that uses the least amount of code to interact with the database! !
 
-android version:<br>[https://github.com/sam38124/JzSqlHelper](url)
+android version:<br>[https://github.com/sam38124/JzSqlHelper](https://github.com/sam38124/JzSqlHelper)
 ## List
 * [Import to project](#Import)
 * [Quick Start](#Use)
