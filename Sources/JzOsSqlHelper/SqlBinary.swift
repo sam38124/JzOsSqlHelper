@@ -12,6 +12,7 @@ public class SqlBinary {
     var statement:OpaquePointer? = nil
     init(_ statement:OpaquePointer){
         self.statement=statement
+        
     }
     public func getString(_ index:Int)->String{
         return  String(cString: sqlite3_column_text(statement,Int32(index))!)
@@ -26,5 +27,8 @@ public class SqlBinary {
         let length = sqlite3_column_bytes(statement, Int32(index))  // 2代表image欄位
         let bytes = sqlite3_column_blob(statement, Int32(index))
         return NSData(bytes: bytes, length: Int(length)) as Data
+    }
+    public func getColumnCount() -> Int{
+        return    Int(sqlite3_column_count(statement))
     }
 }
