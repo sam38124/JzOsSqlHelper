@@ -30,4 +30,7 @@ public class SqlBinary {
     public func getColumnsCount()->Int{
         return Int(sqlite3_column_count(statement));
     }
+    public func getColumnsName(_ index:Int)->String{
+      return    String(cString: sqlite3_column_name(statement, Int32(index)))
+    }
 }
