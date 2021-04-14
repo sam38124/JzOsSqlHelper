@@ -19,25 +19,6 @@ android version:<br>[https://github.com/sam38124/JzSqlHelper](https://github.com
 #### 1.Open xcode and paste link for Swift Package
 + > ##### https://github.com/sam38124/TestLibrary/JzOsSqlHelper
 
-## Create datebase
-```swift
-lazy var adapter=LinearAdapter(tb: tb, count: {
-        //return your item count
-        return 5
-    }, nib: ["Place your xib1","Place your xib2"], getcell: {
-        tableview,indexpath,position in
-if(position==0){
-let cell=a.dequeueReusableCell(withIdentifier: "Place your xib what is define in nib  array") as! Cell_Program_Detail
- return cell
-}else{
-let cell=a.dequeueReusableCell(withIdentifier: "Place your xib what is define in nib  array") as! Cell_Program_info
- return cell
-}    
-}, {
-        clickPosition in
-        //If click item will reback to this callback
-    })
-```
 
 
 <a name="About"></a>
