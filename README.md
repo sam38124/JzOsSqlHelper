@@ -38,36 +38,7 @@ let cell=a.dequeueReusableCell(withIdentifier: "Place your xib what is define in
         //If click item will reback to this callback
     })
 ```
-<a name="HorizontalAdapter"></a>
-## Horizontal LinearLayout
-```swift
-    lazy var adapter=HorizontalAdapter(tb: tb, width:UIScreen.main.bounds.width/3, height: UIScreen.main.bounds.width/3
-    , count: {return self.item.make.count}, nib: "Cell_Make", getcell: {
-        a,b,c in
-        let cell=a.dequeueReusableCell(withReuseIdentifier: "Cell_Make", for: b) as! Cell_Make
-        return cell
-    },scrollback: {
-        //If stop scrolling with call this function
-    })
-```
-<a name="Grid"></a>
-## GridLayout
-```swift
-//Replace count to your itemcount
-//Replace spilt to  how many item you want to display in per line
-    lazy var adapter=GridAdapter(tb: tb, width:UIScreen.main.bounds.width/3, height: UIScreen.main.bounds.width/3
-    , count: {return self.item.make.count}, spilt: 3, nib: "Cell_Make", getcell: {
-        a,b,c in
-        let cell=a.dequeueReusableCell(withReuseIdentifier: "Cell_Make", for: b) as! Cell_Make
-        return cell
-    })
-```
 
-
-#### 2.Refresh layout
-```swift
-adapter.notifyDataSetChange()
-```
 
 <a name="About"></a>
 # About me
