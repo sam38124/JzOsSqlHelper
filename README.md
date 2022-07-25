@@ -29,8 +29,6 @@ android version:<br>[https://github.com/sam38124/JzSqlHelper](https://github.com
 + ##### Full stack engineer<br/>  
 #### <font color="#0000dd"> Main defense range: </font><br /> 
 + ##### Android and IOS(4 years)<br/>  
-+ ##### Jsp(2 years)<br/> 
-+ ##### Javascript and Jquery and Ktor(1 years)<br /> 
 #### <font color="#0000dd"> Contact information: </font><br /> 
 +  ##### line:sam38124<br /> 
 
