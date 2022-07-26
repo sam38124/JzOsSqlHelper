@@ -27,8 +27,6 @@ android version:<br>[https://github.com/sam38124/JzSqlHelper](https://github.com
 + ##### <font color="#660000">【Orange Electronic】</font><br /> 
 #### <font color="#0000dd"> Position: </font><br /> 
 + ##### Full stack engineer<br/>  
-#### <font color="#0000dd"> Main defense range: </font><br /> 
-+ ##### Android and IOS(5 years)<br/>  
 #### <font color="#0000dd"> Contact information: </font><br /> 
 +  ##### line:sam38124<br /> 
 
